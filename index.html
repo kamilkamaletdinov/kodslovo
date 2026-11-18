@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>КОД&СЛОВО — сайты, Telegram-боты и продающие тексты под ключ</title>
+  <meta name="description" content="Делаю сайты, Telegram-ботов и продающие тексты под ключ. Автоматизирую заявки и продажи для малого бизнеса. Запуск за 3 дня." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== PROGRESS BAR ===== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__mark">&lt;/&gt;</span>
+        <span class="logo__text">КОД<span class="logo__amp">&amp;</span>СЛОВО</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#cases" class="nav__link">Кейсы</a>
+        <a href="#process" class="nav__link">Как работаю</a>
+        <a href="#pricing" class="nav__link">Цены</a>
+        <a href="#faq" class="nav__link">Вопросы</a>
+        <a href="#contact" class="btn btn--sm btn--primary nav__cta">Обсудить проект</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+      <div class="hero__grid-bg"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="pill reveal">
+            <span class="pill__dot"></span>
+            Свободен для 2 проектов в этом месяце
+          </span>
+
+          <h1 class="hero__title reveal">
+            Сайты, Telegram-боты и <span class="grad-text">продающие тексты</span> — под ключ
+          </h1>
+
+          <p class="hero__subtitle reveal">
+            Соединяю разработку и копирайтинг: вы получаете не «полуфабрикат», а готовый инструмент,
+            который собирает заявки и экономит время вашей команды.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a href="#contact" class="btn btn--primary btn--lg">Обсудить проект</a>
+            <a href="#cases" class="btn btn--ghost btn--lg">Смотреть кейсы →</a>
+          </div>
+
+          <div class="hero__stats reveal">
+            <div class="stat">
+              <span class="stat__num" data-count="27">0</span>
+              <span class="stat__label">проектов запущено</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="3" data-suffix=" дня">0</span>
+              <span class="stat__label">средний срок запуска</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="98" data-suffix="%">0</span>
+              <span class="stat__label">клиентов довольны</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat mockup -->
+        <div class="hero__visual reveal">
+          <div class="phone">
+            <div class="phone__top">
+              <span class="phone__avatar">К&amp;С</span>
+              <div>
+                <strong>Бот-продажник</strong>
+                <span class="phone__status">онлайн</span>
+              </div>
+            </div>
+
+            <div class="chat" id="chat">
+              <div class="msg msg--bot">
+                <p>Здравствуйте! 👋 Подберу решение под вашу задачу за 2 минуты. Что нужно?</p>
+              </div>
+              <div class="msg msg--bot">
+                <div class="chat__options">
+                  <button class="chip" data-reply="Нужен Telegram-бот">Telegram-бот</button>
+                  <button class="chip" data-reply="Нужен сайт">Сайт / лендинг</button>
+                  <button class="chip" data-reply="Нужны тексты">Тексты</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone__input">
+              <span>Написать сообщение…</span>
+              <span class="phone__send">➤</span>
+            </div>
+          </div>
+
+          <div class="float-card float-card--1">
+            <span class="float-card__icon">📈</span>
+            <div>
+              <strong>+38%</strong>
+              <span>к заявкам</span>
+            </div>
+          </div>
+          <div class="float-card float-card--2">
+            <span class="float-card__icon">⚡</span>
+            <div>
+              <strong>3 дня</strong>
+              <span>до запуска</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRUST STRIP ===== -->
+    <section class="trust">
+      <div class="container trust__inner">
+        <span class="trust__label">Работаю с бизнесами из сфер:</span>
+        <div class="trust__items">
+          <span>Салоны красоты</span>
+          <span>Фитнес-студии</span>
+          <span>Онлайн-школы</span>
+          <span>E-commerce</span>
+          <span>Услуги</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Услуги</span>
+          <h2 class="section__title">Один исполнитель — полный цикл</h2>
+          <p class="section__sub">Вам не нужно искать отдельно разработчика, дизайнера и копирайтера. Всё в одном месте.</p>
+        </div>
+
+        <div class="services">
+          <article class="service-card reveal">
+            <div class="service-card__icon">🤖</div>
+            <h3>Telegram-боты</h3>
+            <p>Боты для записи, заявок, оплат, рассылок и поддержки. Работают 24/7 и снимают нагрузку с менеджеров.</p>
+            <ul class="check-list">
+              <li>Запись клиентов и напоминания</li>
+              <li>Приём заявок и оплат</li>
+              <li>Автоворонки и рассылки</li>
+              <li>Админ-панель и статистика</li>
+            </ul>
+            <span class="service-card__price">от 5 000 ₽</span>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">💻</div>
+            <h3>Сайты и лендинги</h3>
+            <p>Быстрые адаптивные сайты, которые не просто «красивые», а конвертируют посетителей в заявки.</p>
+            <ul class="check-list">
+              <li>Лендинг под запуск</li>
+              <li>Сайт-визитка / корпоративный</li>
+              <li>Адаптив под все устройства</li>
+              <li>SEO-основа и аналитика</li>
+            </ul>
+            <span class="service-card__price">от 7 000 ₽</span>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">✍️</div>
+            <h3>Копирайтинг</h3>
+            <p>Тексты, которые продают: для сайта, бота, рекламы и соцсетей. Без воды и штампов.</p>
+            <ul class="check-list">
+              <li>Продающие тексты для сайта</li>
+              <li>Сценарии ботов и автоворонок</li>
+              <li>Посты и контент-план</li>
+              <li>Офферы и рекламные креативы</li>
+            </ul>
+            <span class="service-card__price">от 2 000 ₽</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CASES ===== -->
+    <section class="section section--alt" id="cases">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Портфолио</span>
+          <h2 class="section__title">Кейсы, которые приносят результат</h2>
+          <p class="section__sub">Не просто «сделал красиво», а измеримый эффект для бизнеса.</p>
+        </div>
+
+        <div class="cases">
+          <article class="case reveal">
+            <div class="case__thumb case__thumb--1">
+              <span class="case__badge">Telegram-бот</span>
+              <div class="case__mock">
+                <span class="case__mock-line"></span>
+                <span class="case__mock-line case__mock-line--short"></span>
+                <span class="case__mock-btn">Записаться</span>
+              </div>
+            </div>
+            <div class="case__body">
+              <h3>Бот записи для барбершопа</h3>
+              <p>Автоматизировал запись и напоминания. Администратор разгружен на 2 часа в день.</p>
+              <div class="case__metrics">
+                <span><strong>+60</strong> записей за 2 недели</span>
+                <span><strong>−2 ч</strong> рутины в день</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="case reveal">
+            <div class="case__thumb case__thumb--2">
+              <span class="case__badge">Лендинг</span>
+              <div class="case__mock case__mock--site">
+                <span class="case__mock-block"></span>
+                <span class="case__mock-line"></span>
+                <span class="case__mock-line case__mock-line--short"></span>
+              </div>
+            </div>
+            <div class="case__body">
+              <h3>Лендинг для онлайн-школы</h3>
+              <p>Переписал тексты и собрал страницу под запуск потока. Заявки подешевели.</p>
+              <div class="case__metrics">
+                <span><strong>8%</strong> конверсия в заявку</span>
+                <span><strong>×2,3</strong> к заявкам</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="case reveal">
+            <div class="case__thumb case__thumb--3">
+              <span class="case__badge">Пакет под ключ</span>
+              <div class="case__mock">
+                <span class="case__mock-line"></span>
+                <span class="case__mock-line case__mock-line--short"></span>
+                <span class="case__mock-btn">Купить</span>
+              </div>
+            </div>
+            <div class="case__body">
+              <h3>Сайт + бот для студии фитнеса</h3>
+              <p>Связал лендинг с ботом: заявка с сайта сразу попадает в Telegram и в таблицу.</p>
+              <div class="case__metrics">
+                <span><strong>0</strong> потерянных заявок</span>
+                <span><strong>3 дня</strong> на запуск</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Процесс</span>
+          <h2 class="section__title">Как мы работаем</h2>
+          <p class="section__sub">Прозрачно и по шагам — вы всегда знаете, что происходит.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Брифинг</h3>
+            <p>10–15 минут переписки или созвона. Выясняю задачу и результат, который нужен.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Структура и смета</h3>
+            <p>Согласовываем структуру, сроки и стоимость. Фиксирую в переписке.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Разработка</h3>
+            <p>Делаю сайт, бота и тексты. Показываю промежуточный результат.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Запуск</h3>
+            <p>Тестируем, публикуем и передаю инструкцию по управлению.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">05</span>
+            <h3>Поддержка</h3>
+            <p>7–14 дней бесплатных правок после запуска. Дальше — по договорённости.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRICING ===== -->
+    <section class="section section--alt" id="pricing">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Цены</span>
+          <h2 class="section__title">Прозрачные пакеты</h2>
+          <p class="section__sub">Точную стоимость назову после короткого брифинга. Первый аудит — бесплатно.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price-card reveal">
+            <h3>Старт</h3>
+            <p class="price-card__desc">Для быстрого теста идеи</p>
+            <div class="price-card__price"><span>от</span> 5 000 ₽</div>
+            <ul class="check-list">
+              <li>Telegram-бот базовый</li>
+              <li>Приём заявок</li>
+              <li>1 сценарий</li>
+              <li>Запуск за 3 дня</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Выбрать</a>
+          </article>
+
+          <article class="price-card price-card--featured reveal">
+            <span class="price-card__tag">Хит</span>
+            <h3>Бизнес</h3>
+            <p class="price-card__desc">Сайт + бот + тексты</p>
+            <div class="price-card__price"><span>от</span> 12 000 ₽</div>
+            <ul class="check-list">
+              <li>Лендинг с продающим текстом</li>
+              <li>Telegram-бот с записью</li>
+              <li>Интеграция сайт ⇄ бот</li>
+              <li>Аналитика заявок</li>
+              <li>Поддержка 14 дней</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block">Выбрать</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3>Максимум</h3>
+            <p class="price-card__desc">Полная автоматизация</p>
+            <div class="price-card__price"><span>от</span> 25 000 ₽</div>
+            <ul class="check-list">
+              <li>Многостраничный сайт</li>
+              <li>Бот + автоворонки</li>
+              <li>Оплата внутри бота</li>
+              <li>Контент-план на месяц</li>
+              <li>Поддержка 30 дней</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Выбрать</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Отзывы</span>
+          <h2 class="section__title">Что говорят клиенты</h2>
+        </div>
+
+        <div class="reviews">
+          <figure class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <blockquote>«Бот записывает клиентов, пока мы закрыты. Админ больше не сидит в телефоне — это реальная экономия.»</blockquote>
+            <figcaption>
+              <span class="review__avatar">А</span>
+              <div><strong>Анна</strong><span>салон красоты</span></div>
+            </figcaption>
+          </figure>
+
+          <figure class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <blockquote>«Лендинг собрали за 3 дня, тексты зашли с первого раза. Заявок стало заметно больше ещё в первую неделю.»</blockquote>
+            <figcaption>
+              <span class="review__avatar review__avatar--2">М</span>
+              <div><strong>Михаил</strong><span>онлайн-школа</span></div>
+            </figcaption>
+          </figure>
+
+          <figure class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <blockquote>«Понравилось, что один человек закрыл и сайт, и бота, и тексты. Не пришлось никого сводить между собой.»</blockquote>
+            <figcaption>
+              <span class="review__avatar review__avatar--3">Д</span>
+              <div><strong>Дмитрий</strong><span>фитнес-студия</span></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section--alt" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="section__title">Частые вопросы</h2>
+        </div>
+
+        <div class="faq">
+          <div class="faq__item reveal">
+            <button class="faq__q">Сколько стоит проект? <span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>Базовый бот — от 5 000 ₽, лендинг — от 7 000 ₽, пакет «сайт + бот + тексты» — от 12 000 ₽. Точную цену назову после короткого брифинга — обычно это 1–2 вопроса.</p></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__q">Как быстро вы запускаете? <span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>Бот — 2–3 дня, лендинг — 3–5 дней, полный пакет — до 7 дней. Сроки фиксирую в переписке до начала работы.</p></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__q">Нужна ли предоплата? <span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>Работаю по схеме 50/50: половина перед стартом, половина после сдачи. Показываю демо до финальной оплаты.</p></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__q">Что если мне не понравится результат? <span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>Правки в рамках задачи — бесплатно. Если на этапе структуры что-то не так, корректируем до старта разработки. Вы всегда видите промежуточный результат.</p></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__q">Смогу ли я сам управлять ботом и сайтом? <span class="faq__icon">+</span></button>
+            <div class="faq__a"><p>Да. После запуска передаю инструкцию и показываю, как менять тексты, цены и добавлять услуги. Плюс остаюсь на связи для вопросов.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__text reveal">
+          <span class="eyebrow">Контакты</span>
+          <h2 class="section__title">Обсудим ваш проект?</h2>
+          <p class="section__sub">Расскажите задачу — задам пару вопросов и скажу, сколько это стоит и сколько займёт. Первый аудит бесплатно.</p>
+
+          <ul class="contact__list">
+            <li><span class="contact__ico">📩</span> Отвечаю в течение дня</li>
+            <li><span class="contact__ico">🎁</span> Бесплатный аудит текущего бота/сайта</li>
+            <li><span class="contact__ico">🔒</span> Данные не передаю третьим лицам</li>
+          </ul>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required />
+            <span class="field__error"></span>
+          </div>
+          <div class="field">
+            <label for="contact">Телефон или Telegram</label>
+            <input type="text" id="contact" name="contact" placeholder="+7 999 123-45-67 / @username" required />
+            <span class="field__error"></span>
+          </div>
+          <div class="field">
+            <label for="task">Что нужно сделать?</label>
+            <select id="task" name="task" required>
+              <option value="">Выберите…</option>
+              <option>Telegram-бот</option>
+              <option>Сайт / лендинг</option>
+              <option>Тексты / копирайтинг</option>
+              <option>Комплексно (сайт + бот + тексты)</option>
+              <option>Пока не знаю</option>
+            </select>
+            <span class="field__error"></span>
+          </div>
+          <div class="field">
+            <label for="message">Коротко о задаче</label>
+            <textarea id="message" name="message" rows="3" placeholder="Например: нужен бот записи для салона красоты"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">Отправить заявку</button>
+          <p class="form__note">Нажимая кнопку, вы соглашаетесь на обработку данных.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="logo">
+          <span class="logo__mark">&lt;/&gt;</span>
+          <span class="logo__text">КОД<span class="logo__amp">&amp;</span>СЛОВО</span>
+        </a>
+        <p>Сайты, Telegram-боты и продающие тексты под ключ для малого бизнеса.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Услуги</h4>
+        <a href="#services">Telegram-боты</a>
+        <a href="#services">Сайты и лендинги</a>
+        <a href="#services">Копирайтинг</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Разделы</h4>
+        <a href="#cases">Кейсы</a>
+        <a href="#pricing">Цены</a>
+        <a href="#faq">Вопросы</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Связаться</h4>
+        <a href="#contact">Оставить заявку</a>
+        <a href="https://t.me/" target="_blank" rel="noopener">Telegram</a>
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> КОД&amp;СЛОВО</span>
+      <span>Сделано с ❤️ для малого бизнеса</span>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING TELEGRAM ===== -->
+  <a href="https://t.me/" target="_blank" rel="noopener" class="fab" aria-label="Написать в Telegram">
+    <span class="fab__pulse"></span>
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
+      <path d="M21.9 4.3c-.3-1.1-1.2-1.5-2.2-1.1L3.4 9.8c-1.1.4-1.1 1.1-.2 1.4l4.2 1.3 1.6 4.9c.2.5.1.7.6.7.4 0 .6-.2.8-.4l2-1.9 4.1 3c.8.4 1.3.2 1.5-.7l2.7-12.8c.2-1 .4-1.6-.8-1zM9.4 13.3l8.5-5.4c.4-.3.8-.1.5.2l-7.2 6.5-.3 3-1.5-4.3z"/>
+    </svg>
+  </a>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span class="toast__icon">✅</span>
+    <span class="toast__text">Заявка отправлена! Свяжусь с вами скоро.</span>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
